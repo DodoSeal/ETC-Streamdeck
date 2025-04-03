@@ -1,0 +1,110 @@
+{
+	"Name": "ETC Eos Control",
+	"Version": "0.1.0.0",
+	"Author": "Max McDaniel",
+	"Actions": [
+		{
+			"Name": "Macro",
+			"UUID": "com.max-mcdaniel.etc-eos.send-macro",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Quickly fire any macro.",
+			"PropertyInspectorPath": "ui/macro.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Group",
+			"UUID": "com.max-mcdaniel.etc-eos.group",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Quickly select any group.",
+			"PropertyInspectorPath": "ui/group.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Patch",
+			"UUID": "com.max-mcdaniel.etc-eos.patch",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Quickly open the Patch Menu.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Effect",
+			"UUID": "com.max-mcdaniel.etc-eos.effect",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Quickly select an Effect.",
+			"PropertyInspectorPath": "ui/effect.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+		,
+		{
+			"Name": "Save Show",
+			"UUID": "com.max-mcdaniel.etc-eos.save",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Quickly save the show file.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Eos Control",
+	"CategoryIcon": "imgs/plugin/EOS_logo",
+	"CodePath": "bin/plugin.js",
+	"Description": "Control an ETC Eos Console through a Stream Deck using OSC!",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.max-mcdaniel.etc-eos"
+}
