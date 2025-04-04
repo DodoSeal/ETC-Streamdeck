@@ -6,7 +6,7 @@
 		{
 			"Name": "Macro",
 			"UUID": "com.max-mcdaniel.etc-eos.send-macro",
-			"Icon": "imgs/actions/counter/icon",
+			"Icon": "imgs/actions/macro/icon",
 			"Tooltip": "Quickly fire any macro.",
 			"PropertyInspectorPath": "ui/macro.html",
 			"Controllers": [
@@ -14,7 +14,7 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
+					"Image": "imgs/actions/macro/key",
 					"TitleAlignment": "middle"
 				}
 			]
@@ -22,7 +22,7 @@
 		{
 			"Name": "Group",
 			"UUID": "com.max-mcdaniel.etc-eos.group",
-			"Icon": "imgs/actions/counter/icon",
+			"Icon": "imgs/actions/group/icon",
 			"Tooltip": "Quickly select any group.",
 			"PropertyInspectorPath": "ui/group.html",
 			"Controllers": [
@@ -30,22 +30,7 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
-					"TitleAlignment": "middle"
-				}
-			]
-		},
-		{
-			"Name": "Patch",
-			"UUID": "com.max-mcdaniel.etc-eos.patch",
-			"Icon": "imgs/actions/counter/icon",
-			"Tooltip": "Quickly open the Patch Menu.",
-			"Controllers": [
-				"Keypad"
-			],
-			"States": [
-				{
-					"Image": "imgs/actions/counter/key",
+					"Image": "imgs/actions/group/key",
 					"TitleAlignment": "middle"
 				}
 			]
@@ -53,7 +38,7 @@
 		{
 			"Name": "Effect",
 			"UUID": "com.max-mcdaniel.etc-eos.effect",
-			"Icon": "imgs/actions/counter/icon",
+			"Icon": "imgs/actions/effect/icon",
 			"Tooltip": "Quickly select an Effect.",
 			"PropertyInspectorPath": "ui/effect.html",
 			"Controllers": [
@@ -61,23 +46,69 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
+					"Image": "imgs/actions/effect/key",
 					"TitleAlignment": "middle"
 				}
 			]
-		}
-		,
+		},
+		{
+			"Name": "Preset",
+			"UUID": "com.max-mcdaniel.etc-eos.preset",
+			"Icon": "imgs/actions/preset/icon",
+			"Tooltip": "Quickly access any preset.",
+			"PropertyInspectorPath": "ui/preset.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/preset/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Patch",
+			"UUID": "com.max-mcdaniel.etc-eos.patch",
+			"Icon": "imgs/actions/patch/icon",
+			"Tooltip": "Quickly open the Patch Menu.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/patch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
 		{
 			"Name": "Save Show",
 			"UUID": "com.max-mcdaniel.etc-eos.save",
-			"Icon": "imgs/actions/counter/icon",
+			"Icon": "imgs/actions/save/icon",
 			"Tooltip": "Quickly save the show file.",
 			"Controllers": [
 				"Keypad"
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
+					"Image": "imgs/actions/save/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Custom OSC",
+			"UUID": "com.max-mcdaniel.etc-eos.custom",
+			"Icon": "imgs/actions/custom/icon",
+			"Tooltip": "Add your own OSC commands.",
+			"PropertyInspectorPath": "ui/custom.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/custom/key",
 					"TitleAlignment": "middle"
 				}
 			]
