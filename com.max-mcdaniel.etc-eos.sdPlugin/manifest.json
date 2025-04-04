@@ -117,7 +117,7 @@
 	"Category": "Eos Control",
 	"CategoryIcon": "imgs/plugin/EOS_logo",
 	"CodePath": "bin/plugin.js",
-	"Description": "Control an ETC Eos Console through a Stream Deck using OSC!",
+	"Description": "Control an ETC Eos Console through a Stream Deck using OSC! Eos (or Nomad) MUST be open before loading a profile with OSC Actions.",
 	"Icon": "imgs/plugin/marketplace",
 	"SDKVersion": 2,
 	"Software": {
