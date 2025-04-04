@@ -7,7 +7,7 @@ import { Save } from "./actions/save";
 import { Preset } from "./actions/preset";
 import { Custom } from "./actions/custom";
 
-streamDeck.logger.setLevel(LogLevel.TRACE);
+//streamDeck.logger.setLevel(LogLevel.TRACE);
 
 streamDeck.actions.registerAction(new SendMacro());
 streamDeck.actions.registerAction(new Group());
